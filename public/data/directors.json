@@ -1,0 +1,180 @@
+{
+  "directors": [
+    {
+      "id": 1,
+      "name": "Люк Бессон",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/90dad9b6-22fe-460e-a035-ba956d6aae42/280x420",
+      "bio": "Французский режиссёр, сценарист и продюсер Люк Бессон наиболее известен своими стильными и динамичными фильмами, такими как «Леон», «Пятый элемент» и «Никита».",
+      "filmLink": "https://www.kinopoisk.ru/name/24505/",
+      "films": [
+        {
+          "id": 4922959,
+          "title": "Догмен",
+          "year": 2023,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/740fe2d6-0813-470a-8ca0-38cda5ba2303/300x450",
+          "link": "https://www.kinopoisk.ru/film/4922959/"
+        },
+        {
+          "id": 9579,
+          "title": "Голубая бездна",
+          "year": 1988,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/0b602e89-4049-4bf8-8f46-cf83af84ab43/300x450",
+          "link": "https://www.kinopoisk.ru/film/9579/"
+        },
+        {
+          "id": 2656,
+          "title": "Пятый элемент",
+          "year": 1997,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/9e9e2b2c-a3c1-462e-8d84-e6a19fbe5b9c/300x450",
+          "link": "https://www.kinopoisk.ru/film/2656/"
+        },
+        {
+          "id": 389,
+          "title": "Леон",
+          "year": 1994,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/8662d92a-5881-4600-a7ae-549e6fd53b03/300x450",
+          "link": "https://www.kinopoisk.ru/film/389/"
+        },
+        {
+          "id": 160929,
+          "title": "Ангел-А",
+          "year": 2005,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/423ea47d-93e9-405d-a6e0-39f1f893eea0/300x450",
+          "link": "https://www.kinopoisk.ru/film/160929/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Кристофер Нолан",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/c16e1382-d91d-4cfc-b179-ce8757a41b10/280x420",
+      "bio": "Британо-американский режиссёр, сценарист и продюсер, известный масштабными голливудскими блокбастерами с нелинейными сюжетами и философским подтекстом, включая «Помни», «Начало», трилогию о Бэтмене и оскароносный «Оппенгеймер».",
+      "filmLink": "https://www.kinopoisk.ru/name/41477/",
+      "films": [
+        {
+          "id": 335,
+          "title": "Мементо",
+          "year": 2000,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/3fabdd0d-9b34-4cbf-a3b0-eb8448ccc122/300x450",
+          "link": "https://www.kinopoisk.ru/film/335/"
+        },
+        {
+          "id": 195334,
+          "title": "Престиж",
+          "year": 2006,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/0e1384ae-6367-4bba-9e5d-d91c6625371e/300x450",
+          "link": "https://www.kinopoisk.ru/film/195334/"
+        },
+        {
+          "id": 447301,
+          "title": "Начало",
+          "year": 2010,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/300x450",
+          "link": "https://www.kinopoisk.ru/film/447301/"
+        },
+        {
+          "id": 258687,
+          "title": "Интерстеллар",
+          "year": 2014,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/430042eb-ee69-4818-aed0-a312400a26bf/300x450",
+          "link": "https://www.kinopoisk.ru/film/258687/"
+        },
+        {
+          "id": 4664634,
+          "title": "Оппенгеймер",
+          "year": 2023,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/c5292109-642c-4ab0-894a-cc304e1bcec4/300x450",
+          "link": "https://www.kinopoisk.ru/film/4664634/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Джон Карпентер",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/41948fd1-9607-48e7-91e3-e1103de49a4d/280x420",
+      "bio": "Мастер минималистичного ужаса и жутких синтезаторных саундтреков, создавший Майкла Майерса и определивший атмосферу современного хоррора.",
+      "filmLink": "https://www.kinopoisk.ru/name/36434/",
+      "films": [
+        {
+          "id": 12340,
+          "title": "Чужие среди нас",
+          "year": 1988,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/c31a1e57-ce19-452a-8282-a378d90d1acb/300x450",
+          "link": "https://www.kinopoisk.ru/film/12340/"
+        },
+        {
+          "id": 4079,
+          "title": "Кристина",
+          "year": 1983,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/b3edfc14-e1d9-4980-b665-021eec3001d1/300x450",
+          "link": "https://www.kinopoisk.ru/film/4079/"
+        },
+        {
+          "id": 9801,
+          "title": "Туман",
+          "year": 1980,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/9838f55a-d66c-4228-b4ca-9e7225f17dae/300x450",
+          "link": "https://www.kinopoisk.ru/film/9801/"
+        },
+        {
+          "id": 8366,
+          "title": "Нечто",
+          "year": 1982,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/01d5bf88-75de-4686-a322-14a55fca991c/300x450",
+          "link": "https://www.kinopoisk.ru/film/8366/"
+        },
+        {
+          "id": 8435,
+          "title": "Хэллоуин",
+          "year": 1978,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/fe86cd89-aba3-4966-8230-6adf61de21dc/300x450",
+          "link": "https://www.kinopoisk.ru/film/8435/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Гильермо дель Торо",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/70550ec5-13ed-418e-a8b4-ae239a9c6398/280x420",
+      "bio": "Мастер атмосферных, сказочных и жутких историй, где реальность переплетается с фантазией.",
+      "filmLink": "https://www.kinopoisk.ru/name/946/",
+      "films": [
+        {
+          "id": 103733,
+          "title": "Лабиринт фавна",
+          "year": 2006,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/d4fa3478-cc0a-432f-9821-7a6bda84ccba/300x450",
+          "link": "https://www.kinopoisk.ru/film/103733/"
+        },
+        {
+          "id": 4079,
+          "title": "Кристина",
+          "year": 1983,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/b3edfc14-e1d9-4980-b665-021eec3001d1/300x450",
+          "link": ""
+        },
+        {
+          "id": 9801,
+          "title": "Туман",
+          "year": 1980,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/9838f55a-d66c-4228-b4ca-9e7225f17dae/300x450",
+          "link": ""
+        },
+        {
+          "id": 8366,
+          "title": "Нечто",
+          "year": 1982,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/01d5bf88-75de-4686-a322-14a55fca991c/300x450",
+          "link": ""
+        },
+        {
+          "id": 8435,
+          "title": "Хэллоуин",
+          "year": 1978,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/fe86cd89-aba3-4966-8230-6adf61de21dc/300x450",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

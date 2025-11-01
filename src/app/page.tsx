@@ -1,103 +1,117 @@
-import Image from "next/image";
+"use client"
+
+import { useState, useEffect } from "react"
+import { DirectorSelector } from "@/components/director-selector"
+import { DirectorInfo } from "@/components/director-info"
+import { MovieGrid } from "@/components/movie-grid"
+import { LinksSection } from "@/components/links-section"
+import { Director, DirectorsData } from "@/types/director"
+
+const externalLinks = [
+  {
+    title: "Кинопоиск",
+    description: "Российская база данных кино с рецензиями и рейтингами",
+    url: "https://www.kinopoisk.ru",
+  },  
+  {
+    title: "IMDb",
+    description: "Полная база данных фильмов и информация о режиссёрах",
+    url: "https://www.imdb.com",
+  },
+  {
+    title: "Rotten Tomatoes",
+    description: "Критические оценки и рецензии на фильмы",
+    url: "https://www.rottentomatoes.com",
+  },
+]
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const [directors, setDirectors] = useState<Director[]>([])
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [loading, setLoading] = useState(true)
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  useEffect(() => {
+    const fetchDirectors = async () => {
+      try {
+        const response = await fetch("/data/directors.json")
+        const data: DirectorsData = await response.json()
+        setDirectors(data.directors)
+        if (data.directors.length > 0) {
+          setCurrentIndex(data.directors.length - 1)
+          setLoading(false)
+        }
+      } catch (error) {
+        console.error("Error loading directors:", error)
+        setLoading(false)
+      }
+    }
+
+    fetchDirectors()
+  }, [])
+
+  const handlePrevious = () => {
+    setCurrentIndex((prev) => (prev === 0 ? directors.length - 1 : prev - 1)) 
+  }
+
+  const handleNext = () => {
+    setCurrentIndex((prev) => (prev === directors.length - 1 ? 0 : prev + 1))
+  }
+
+  if (loading || directors.length === 0) {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-900 via-gray-900 to-black">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-4 border-purple-500/30 border-t-orange-400 mx-auto mb-6 shadow-lg shadow-orange-500/50"></div>
+          <p className="text-lg font-semibold bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent">
+            Загрузка данных...
+          </p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+      </div>
+    )
+  }
+
+  const currentDirector = directors[currentIndex]
+
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-black">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-float" />
+        <div
+          className="absolute bottom-0 right-1/4 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl animate-float"
+          style={{ animationDelay: "1s" }}
+        />
+      </div>
+
+      <div className="max-w-6xl mx-auto px-4 py-8 relative z-10">
+        {/* Section 1: Director Selector */}
+        <DirectorSelector
+          directors={directors}
+          currentIndex={currentIndex}
+          onPrevious={handlePrevious}
+          onNext={handleNext}
+        />
+
+        {/* Section 2: Director Info */}
+        <DirectorInfo
+          name={currentDirector.name}
+          bio={currentDirector.bio}
+          image={currentDirector.image}
+          filmLink={currentDirector.filmLink}
+        />
+
+        {/* Section 3: Movie Grid */}
+        <MovieGrid movies={currentDirector.films} />
+
+        {/* Section 4: External Links */}
+        <LinksSection links={externalLinks} />
+
+        {/* Footer */}
+        <footer className="mt-12 pt-8 border-t border-purple-500/30 text-center text-sm">
+          <p className="bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent font-semibold">
+            © 2025 Еженедельный кинопросмотр. Все права защищены.
+          </p>
+        </footer>
+      </div>
+    </main>
+  )
 }
