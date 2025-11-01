@@ -24,7 +24,7 @@ export function DirectorSelector({ directors, currentIndex, onPrevious, onNext }
         className={`rounded-full transition-all duration-300 ${
           isAtEnd
             ? "bg-gray-600 border-gray-500 text-gray-400 cursor-not-allowed opacity-50"
-            : "bg-gradient-to-br from-orange-500 to-orange-700 hover:from-orange-400 hover:to-orange-600 border-orange-400 text-white hover:text-white hover:scale-110 hover:shadow-lg"
+            : "bg-gradient-to-br from-purple-500 to-purple-700 hover:from-purple-400 hover:to-purple-600 border-purple-400 text-white hover:text-white hover:scale-110 hover:shadow-lg"
         }`}
 
       >
@@ -43,7 +43,7 @@ export function DirectorSelector({ directors, currentIndex, onPrevious, onNext }
         className={`rounded-full transition-all duration-300 ${
           isAtStart
             ? "bg-gray-600 border-gray-500 text-gray-400 cursor-not-allowed opacity-50"
-            : "bg-gradient-to-br from-purple-500 to-purple-700 hover:from-purple-400 hover:to-purple-600 border-purple-400 text-white hover:text-white hover:scale-110 hover:shadow-lg"
+            : "bg-gradient-to-br from-orange-500 to-orange-700 hover:from-orange-400 hover:to-orange-600 border-orange-400 text-white hover:text-white hover:scale-110 hover:shadow-lg"
         }`}
       >
         <ChevronRight className="h-5 w-5" />
