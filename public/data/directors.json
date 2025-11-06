@@ -175,6 +175,50 @@
           "link": "https://www.kinopoisk.ru/film/662/"
         }
       ]
-    }
+    },
+    {
+      "id": 5,
+      "name": "Ларс фон Триер",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/0cfb1202-a155-495c-885a-884d655badad/280x420",
+      "bio": "Культовый датский режиссер и сценарист, один из ключевых авторов современного европейского кино, сооснователь манифеста «Догма 95». Он известен своими провокационными, эмоционально насыщенными и визуально смелыми фильмами, исследующими человеческие страдания, психологию и природу зла.",
+      "filmLink": "https://www.kinopoisk.ru/name/31951/",
+      "films": [
+        {
+          "id": 5264,
+          "title": "Рассекая волны",
+          "year": 1996,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/b789c513-c12c-47f6-8060-6bae4cb76d4e/300x450",
+          "link": "https://www.kinopoisk.ru/film/5264/"
+        },
+        {
+          "id": 484488,
+          "title": "Меланхолия",
+          "year": 2011,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/54e33f42-94ec-459b-97c5-dc73c39a1fb5/300x450",
+          "link": "https://www.kinopoisk.ru/film/484488/"
+        },
+        {
+          "id": 15151,
+          "title": "Европа",
+          "year": 1991,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/319783c9-a0d7-450a-a8ae-64d73b2a9805/300x450",
+          "link": "https://www.kinopoisk.ru/film/15151/"
+        },
+        {
+          "id": 7226,
+          "title": "Догвилль",
+          "year": 2003,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/ea32e9e1-bce8-4a1f-bf1c-6527851f71aa/300x450",
+          "link": "https://www.kinopoisk.ru/film/7226/"
+        },
+        {
+          "id": 646,
+          "title": "Танцующая в темноте",
+          "year": 2000,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/355a7fde-66df-42e4-9360-ee8400221203/300x450",
+          "link": "https://www.kinopoisk.ru/film/646/"
+        }
+      ]
+    }    
   ]
 }
