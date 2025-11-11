@@ -31,7 +31,7 @@ export function DirectorSelector({ directors, currentIndex, onPrevious, onNext }
         <ChevronLeft className="h-5 w-5" />
       </Button>
 
-      <h1 className="text-5xl font-bold text-balance bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 bg-clip-text text-transparent animate-slide-in-up">
+      <h1 className="text-3xl xl:text-5xl font-bold text-balance bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 bg-clip-text text-transparent animate-slide-in-up">
         {directors[currentIndex].name}
       </h1>
 
