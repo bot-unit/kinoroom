@@ -219,6 +219,50 @@
           "link": "https://www.kinopoisk.ru/film/646/"
         }
       ]
-    }    
+    },
+    {
+      "id": 6,
+      "name": "Альфред Хичкок",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/d62d9002-6550-4c3b-bf33-56a35da9b262/280x420",
+      "bio": "Мастер саспенса, легендарный английский режиссер, который изобрел и усовершенствовал жанр психологического триллера. Он использовал инновационные кинематографические приемы для создания непревзойденного напряжения и тревоги, оказав огромное влияние на мировое кино.",
+      "filmLink": "https://www.kinopoisk.ru/name/156444/",
+      "films": [
+        {
+          "id": 344,
+          "title": "Психо",
+          "year": 1960,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/abbb4d30-fd08-4fc1-9543-333b2276be11/300x450",
+          "link": "https://www.kinopoisk.ru/film/344/"
+        },
+        {
+          "id": 343,
+          "title": "На север через северо-запад",
+          "year": 1959,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/304cac3f-1186-477b-a025-742c351bf7c7/300x450",
+          "link": "https://www.kinopoisk.ru/film/343/"
+        },
+        {
+          "id": 352,
+          "title": "Головокружение",
+          "year": 1958,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/c4674483-78a6-49cb-aa6f-bbc3859884e4/300x450",
+          "link": "https://www.kinopoisk.ru/film/352/"
+        },
+        {
+          "id": 337,
+          "title": "Окно во двор",
+          "year": 1954,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/b366c92a-690b-4586-89e4-974ca741c420/300x450",
+          "link": "https://www.kinopoisk.ru/film/337/"
+        },
+        {
+          "id": 426,
+          "title": "Ребекка",
+          "year": 1940,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/57e03416-3dc5-4dc7-9476-74a755e169fe/300x450",
+          "link": "https://www.kinopoisk.ru/film/426/"
+        }
+      ]
+    }
   ]
 }
