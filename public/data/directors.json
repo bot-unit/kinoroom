@@ -263,6 +263,50 @@
           "link": "https://www.kinopoisk.ru/film/426/"
         }
       ]
+    },
+    {
+      "id": 7,
+      "name": "Вуди Аллен",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/97457cb7-c27e-46b6-a878-eeddc5ecce3f/280x420",
+      "bio": "Культовый американский режиссер, сценарист и актер, известный своим уникальным интеллектуальным юмором, экзистенциальными размышлениями и как автор более 50 фильмов, преимущественно о жизни нью-йоркской интеллигенции. Его работы, такие как оскароносная «Энни Холл» и «Манхэттен», оказали огромное влияние на жанр романтической комедии и мировое кино в целом.",
+      "filmLink": "https://www.kinopoisk.ru/name/5890/",
+      "films": [
+        {
+          "id": 420,
+          "title": "Манхэттен",
+          "year": 1979,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/62779736-0398-4a10-a418-e61a8d918398/300x450",
+          "link": "https://www.kinopoisk.ru/film/420/"
+        },
+        {
+          "id": 390,
+          "title": "Энни Холл",
+          "year": 1977,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/787826af-f3a8-4611-82cb-865a4aa1407a/300x450",
+          "link": "https://www.kinopoisk.ru/film/390/"
+        },
+        {
+          "id": 2740,
+          "title": "Преступления и проступки",
+          "year": 1989,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/996f4b29-aae5-4729-9616-cc325456b262/300x450",
+          "link": "https://www.kinopoisk.ru/film/2740/"
+        },
+        {
+          "id": 504465,
+          "title": "Полночь в Париже",
+          "year": 2011,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/3cc57b96-0f01-4550-b2f1-e981e36f1333/300x450",
+          "link": "https://www.kinopoisk.ru/film/504465/"
+        },
+        {
+          "id": 278171,
+          "title": "Вики Кристина Барселона",
+          "year": 2008,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/e5e7d051-0657-4d15-b65d-3f42cbb935b9/300x450",
+          "link": "https://www.kinopoisk.ru/film/278171/"
+        }
+      ]
     }
   ]
 }
