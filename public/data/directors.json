@@ -307,6 +307,94 @@
           "link": "https://www.kinopoisk.ru/film/278171/"
         }
       ]
-    }
+    },
+    {
+      "id": 8,
+      "name": "Роман Полански",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9f8df07c-1ffe-4b94-b732-4483fff69585/600x900",
+      "bio": "Один из самых виртуозных режиссеров мирового кино, признанный мастер психологического напряжения и камерной драмы, чьи фильмы мастерски исследуют темы паранойи, изоляции и темных сторон человеческой природы.",
+      "filmLink": "https://www.kinopoisk.ru/name/16563/",
+      "films": [
+        {
+          "id": 365,
+          "title": "Китайский квартал",
+          "year": 1974,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/d8913c0f-f10d-4930-ac21-15c07baa0dfc/600x900",
+          "link": "https://www.kinopoisk.ru/film/365/"
+        },
+        {
+          "id": 355,
+          "title": "Пианист",
+          "year": 2002,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/6d71694e-3796-4e1c-96aa-0e982c2bc03d/600x900",
+          "link": "https://www.kinopoisk.ru/film/355/"
+        },
+        {
+          "id": 11637,
+          "title": "Девятые врата",
+          "year": 1999,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/f80f5a3f-4898-4d7d-9636-e260549f07df/600x900",
+          "link": "https://www.kinopoisk.ru/film/11637/"
+        },
+        {
+          "id": 680149,
+          "title": "Офицер и шпион",
+          "year": 2019,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/68198623-318f-4028-9fda-c0f3e50bde0e/600x900",
+          "link": "https://www.kinopoisk.ru/film/680149/"
+        },
+        {
+          "id": 557837,
+          "title": "Резня",
+          "year": 2011,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/dc08b1a4-841c-41ce-9e44-d95672e53025/600x900",
+          "link": "https://www.kinopoisk.ru/film/557837/"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Стэнли Кубрик",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e70b3771-0e38-434c-bbea-41a9b7036e0f/280x420",
+      "bio": "Культовый американский кинорежиссер, сценарист, продюсер, оператор и фотограф, который считается одним из самых влиятельных и новаторских кинематографистов второй половины XX века. ",
+      "filmLink": "https://www.kinopoisk.ru/name/20299/",
+      "films": [
+        {
+          "id": 360,
+          "title": "Тропы славы",
+          "year": 1957,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/33a4403d-9750-4d45-a20a-dffa0e03f49c/300x450",
+          "link": "https://www.kinopoisk.ru/film/360/"
+        },
+        {
+          "id": 418,
+          "title": "Цельнометаллическая оболочка",
+          "year": 1987,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/63ae09b0-12c7-4ca6-996a-1a9435cb8cfc/300x450",
+          "link": "https://www.kinopoisk.ru/film/418/"
+        },
+        {
+          "id": 409,
+          "title": "Сияние",
+          "year": 1980,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/49ba5c05-249b-4387-8418-833aa54bb376/300x450",
+          "link": "https://www.kinopoisk.ru/film/409/"
+        },
+        {
+          "id": 391,
+          "title": "Заводной апельсин",
+          "year": 1971,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/5c80a1c4-b8d4-4fc9-a363-41df01545f7f/300x450",
+          "link": "https://www.kinopoisk.ru/film/391/"
+        },
+        {
+          "id": 380,
+          "title": "2001 год: Космическая одиссея",
+          "year": 1968,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/4fb869bc-9e2f-46cc-a72d-df67ead77fff/300x450",
+          "link": "https://www.kinopoisk.ru/film/380/"
+        }
+      ]
+    }    
   ]
 }
