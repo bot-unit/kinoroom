@@ -1,3 +1,11 @@
+## Analytics
+- GA4 integrated via `gtag.js` with Consent Mode.
+- Scripts are initialized in `src/app/layout.tsx`.
+- Client navigation `page_view` tracking in `src/components/analytics.tsx`.
+- Consent banner in `src/components/consent-banner.tsx` (persists choice to localStorage).
+- Set `NEXT_PUBLIC_GA_MEASUREMENT_ID` in `.env`.
+- Details and implementation notes: see `docs/GA_PLAN.md`.
+
 # 🎬 Kinoroom
 
 Веб-приложение для еженедельного кинопросмотра студентов онлайн-школы испанского языка [estudiamos](https://school.estudiamos-cursos.com/).

@@ -395,6 +395,50 @@
           "link": "https://www.kinopoisk.ru/film/380/"
         }
       ]
-    }    
+    },
+    {
+      "id": 10,
+      "name": "Стивен Спилберг",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/f683218a-778a-46fb-9071-0fcc32f64843/280x420",
+      "bio": "Признанный визуальный гений, который фактически изобрел язык современного блокбастера и навсегда изменил правила развлекательного кино. Он виртуозно управляет вниманием аудитории, мастерски проводя зрителя через весь эмоциональный спектр — от леденящего ужаса до чистого детского восторга.",
+      "filmLink": "https://www.kinopoisk.ru/name/22260/",
+      "films": [
+        {
+          "id": 360,
+          "title": "Челюсти",
+          "year": 1975,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/8632d1cd-9819-46b2-95a0-e583b2f72ffb/300x450",
+          "link": "https://www.kinopoisk.ru/film/396/"
+        },
+        {
+          "id": 81372,
+          "title": "Дуэль",
+          "year": 1972,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/ba0d4349-a493-4c27-aebd-88a14b43e00d/300x450",
+          "link": "https://www.kinopoisk.ru/film/81372/"
+        },
+        {
+          "id": 552,
+          "title": "Близкие контакты третьей степени ",
+          "year": 1977,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/a79f9bc4-9f22-4dc7-8699-877a3d778ae4/300x450",
+          "link": "https://www.kinopoisk.ru/film/552/"
+        },
+        {
+          "id": 339,
+          "title": "Индиана Джонс: В поисках утраченного ковчега",
+          "year": 1981,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/c4c8cca3-fed9-49f8-8918-1e8301a4327e/300x450",
+          "link": "https://www.kinopoisk.ru/film/339/"
+        },
+        {
+          "id": 7121,
+          "title": "Парк Юрского периода",
+          "year": 1993,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/0d072841-8c4d-40ac-82bc-36e743ef49f5/300x450",
+          "link": "https://www.kinopoisk.ru/film/7121/"
+        }
+      ]
+    }
   ]
 }
