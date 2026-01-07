@@ -404,7 +404,7 @@
       "filmLink": "https://www.kinopoisk.ru/name/22260/",
       "films": [
         {
-          "id": 360,
+          "id": 396,
           "title": "Челюсти",
           "year": 1975,
           "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/8632d1cd-9819-46b2-95a0-e583b2f72ffb/300x450",
@@ -419,7 +419,7 @@
         },
         {
           "id": 552,
-          "title": "Близкие контакты третьей степени ",
+          "title": "Близкие контакты третьей степени",
           "year": 1977,
           "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/a79f9bc4-9f22-4dc7-8699-877a3d778ae4/300x450",
           "link": "https://www.kinopoisk.ru/film/552/"
@@ -437,6 +437,94 @@
           "year": 1993,
           "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/0d072841-8c4d-40ac-82bc-36e743ef49f5/300x450",
           "link": "https://www.kinopoisk.ru/film/7121/"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Стивен Спилберг",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/f683218a-778a-46fb-9071-0fcc32f64843/280x420",
+      "bio": "Бескомпромиссным хроникер самых трагических страниц человеческой истории. Превращая художественное кино в мощное свидетельство эпохи, он исследует природу гуманизма и утверждает абсолютную ценность жизни каждого отдельного человека на фоне глобальных катастроф.",
+      "filmLink": "https://www.kinopoisk.ru/name/22260/",
+      "films": [
+        {
+          "id": 371,
+          "title": "Спасти рядового Райана",
+          "year": 1998,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/6bf087f7-a3eb-429f-8844-ace4db6be417/300x450",
+          "link": "https://www.kinopoisk.ru/film/371/"
+        },
+        {
+          "id": 329,
+          "title": "Список Шиндлера",
+          "year": 1993,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/1e1ac6d9-c658-4f5f-937e-d080bca0d893/300x450",
+          "link": "https://www.kinopoisk.ru/film/329/"
+        },
+        {
+          "id": 3923,
+          "title": "Империя солнца",
+          "year": 1987,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/a1530fe1-3ee6-4114-83bc-61c386bc2ae2/300x450",
+          "link": "https://www.kinopoisk.ru/film/3923/"
+        },
+        {
+          "id": 81287,
+          "title": "Мюнхен",
+          "year": 2005,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/83949115-70b4-4c4b-93ff-e549dededf94/300x450",
+          "link": "https://www.kinopoisk.ru/film/81287/"
+        },
+        {
+          "id": 840884,
+          "title": "Шпионский мост",
+          "year": 2015,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/ddec9c90-5b24-4ee9-84d0-042c8d82c76e/300x450",
+          "link": "https://www.kinopoisk.ru/film/840884/"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Стивен Спилберг",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/f683218a-778a-46fb-9071-0fcc32f64843/280x420",
+      "bio": "Фильмы о людях, которые ищут своё место в мире, преодолевают внутренние и внешние конфликты, и в конечном итоге находят надежду и силу в человеческом духе.",
+      "filmLink": "https://www.kinopoisk.ru/name/22260/",
+      "films": [
+        {
+          "id": 544,
+          "title": "Инопланетянин",
+          "year": 1982,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/df360301-084a-4eec-90ab-7954b143de18/300x450",
+          "link": "https://www.kinopoisk.ru/film/544/"
+        },
+        {
+          "id": 324,
+          "title": "Поймай меня, если сможешь",
+          "year": 2002,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/e38dd6f9-610e-4c90-8540-dc48560cb9cc/300x450",
+          "link": "https://www.kinopoisk.ru/film/324/"
+        },
+        {
+          "id": 6877,
+          "title": "Терминал",
+          "year": 2004,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/db9880f6-0897-492b-acb6-4d4de10dc480/300x450",
+          "link": "https://www.kinopoisk.ru/film/6877/"
+        },
+        {
+          "id": 3749,
+          "title": "Цветы лиловые полей",
+          "year": 1985,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/03897af9-f6fe-4079-a53b-d5388761d353/300x450",
+          "link": "https://www.kinopoisk.ru/film/3749/"
+        },
+        {
+          "id": 4472502,
+          "title": "Фабельманы",
+          "year": 2022,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/dda0ea28-f6f6-4f7c-b826-10a130aa7681/300x450",
+          "link": "https://www.kinopoisk.ru/film/4472502/"
         }
       ]
     }
