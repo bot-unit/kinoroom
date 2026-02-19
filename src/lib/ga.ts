@@ -1,6 +1,6 @@
 /* Minimal GA4 helpers for Next.js client navigation */
 
-export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ''
+export const GA_MEASUREMENT_ID = 'G-QRG90D0Q8Q'
 
 function hasWindow() {
   return typeof window !== 'undefined'

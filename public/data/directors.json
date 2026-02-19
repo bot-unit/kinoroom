@@ -527,6 +527,94 @@
           "link": "https://www.kinopoisk.ru/film/4472502/"
         }
       ]
-    }
+    },
+    {
+      "id": 13,
+      "name": "Стивен Спилберг",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/f683218a-778a-46fb-9071-0fcc32f64843/280x420",
+      "bio": "Визионер и футуролог, исследующий тонкую грань между человеческой душой и высокими технологиями. От этики искусственного интеллекта до жизни в виртуальных мирах — он предсказывает, как цифровая эра изменит наше восприятие реальности и саму суть гуманизма.",
+      "filmLink": "https://www.kinopoisk.ru/name/22260/",
+      "films": [
+        {
+          "id": 594,
+          "title": "Искусственный разум",
+          "year": 2001,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10953618/c1753bfc-a8df-459f-a797-d8b48e1016d3/300x450",
+          "link": "https://www.kinopoisk.ru/film/594/"
+        },
+        {
+          "id": 496,
+          "title": "Особое мнение",
+          "year": 2002,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/b5d392aa-eefc-4575-9878-c2301e04e6b7/300x450",
+          "link": "https://www.kinopoisk.ru/film/496/"
+        },
+        {
+          "id": 81289,
+          "title": "Война миров",
+          "year": 2005,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/b80d6383-7a1a-443b-af83-a745ce1b3fe2/300x450",
+          "link": "https://www.kinopoisk.ru/film/81289/"
+        },
+        {
+          "id": 406186,
+          "title": "Приключения Тинтина: Тайна единорога",
+          "year": 2011,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/f80e4109-7472-46d5-bd3c-d6036ffd80d5/300x450",
+          "link": "https://www.kinopoisk.ru/film/406186/"
+        },
+        {
+          "id": 538225,
+          "title": "Первому игроку приготовиться",
+          "year": 2018,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/5ae82f4b-fd6a-46b5-b5ba-897106eb1eae/300x450",
+          "link": "https://www.kinopoisk.ru/film/538225/"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Уэс Андерсон",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/15c061bd-21b9-4108-9902-9b0614ba11e6/280x420",
+      "bio": "Главный визионер современного кино, превращающий каждый кадр в безупречную симметричную открытку в пастельных тонах. Его меланхоличные комедии — это уникальный мир, где абсурдный юмор встречается с глубокими семейными драмами и идеальным дизайном.",
+      "filmLink": "https://www.kinopoisk.ru/name/48415/",
+      "films": [
+        {
+          "id": 683999,
+          "title": "Отель «Гранд Будапешт»",
+          "year": 2014,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/ea08a062-81a9-46e9-a475-e49388216eea/300x450",
+          "link": "https://www.kinopoisk.ru/film/683999/"
+        },
+        {
+          "id": 939785,
+          "title": "Остров собак",
+          "year": 2018,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/19f92516-4164-46f7-a083-2eb516a0adaf/300x450",
+          "link": "https://www.kinopoisk.ru/film/939785/"
+        },
+        {
+          "id": 571892,
+          "title": "Королевство полной луны",
+          "year": 2012,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10853012/e2b92a6b-1c5f-4474-a2f5-a1f01cbf032b/300x450",
+          "link": "https://www.kinopoisk.ru/film/571892/"
+        },
+        {
+          "id": 86621,
+          "title": "Бесподобный мистер Фокс",
+          "year": 2009,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/6cc907d7-25d2-4760-a87b-3c1c2bc586c1/300x450",
+          "link": "https://www.kinopoisk.ru/film/86621/"
+        },
+        {
+          "id": 809,
+          "title": "Семейка Тененбаум",
+          "year": 2001,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/e567dc6e-4388-4b8a-a293-913d6e6bfcb7/300x450",
+          "link": "https://www.kinopoisk.ru/film/809/"
+        }
+      ]
+    }            
   ]
 }
