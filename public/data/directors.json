@@ -615,6 +615,94 @@
           "link": "https://www.kinopoisk.ru/film/809/"
         }
       ]
-    }            
+    },   
+    {
+      "id": 15,
+      "name": "Ридли Скотт",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/a721d770-b5ea-427c-8377-d4c592ed1a23/600x900",
+      "bio": "Величайший визионер Голливуда, способный превратить любой кадр в ожившее полотно классической живописи. Его фильмы — это идеальный баланс между философской глубиной, эпическим размахом и техническим совершенством, которое не устаревает десятилетиями.",
+      "filmLink": "https://www.kinopoisk.ru/name/10015/",
+      "films": [
+        {
+          "id": 386,
+          "title": "Чужой",
+          "year": 1979,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/14af6019-b2fe-4e1e-bee5-334d9e472d94/600x900",
+          "link": "https://www.kinopoisk.ru/film/386/"
+        },
+        {
+          "id": 403,
+          "title": "Бегущий по лезвию",
+          "year": 1982,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/ffa0729b-8587-47e8-b4de-3f8a2c61e218/600x900",
+          "link": "https://www.kinopoisk.ru/film/403/"
+        },
+        {
+          "id": 841700,
+          "title": "Марсианин",
+          "year": 2015,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/6f631486-e947-487d-94d6-41c2b5a8f5a0/600x900",
+          "link": "https://www.kinopoisk.ru/film/841700/"
+        },
+        {
+          "id": 612,
+          "title": "Падение „Черного ястреба“",
+          "year": 2001,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/09e3284b-3362-4df6-986f-15b91562a967/600x900",
+          "link": "https://www.kinopoisk.ru/film/612/"
+        },
+        {
+          "id": 252156,
+          "title": "Гангстер",
+          "year": 2007,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/1060b296-390a-41d3-bfcf-ce143725a520/600x900",
+          "link": "https://www.kinopoisk.ru/film/252156/"
+        }
+      ]
+    },     
+    {
+      "id": 16,
+      "name": "Ридли Скотт",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/a721d770-b5ea-427c-8377-d4c592ed1a23/600x900",
+      "bio": "От клаустрофобного космоса до пыльных арен Древнего Рима: Скотт мастерски перепридумывает жанры, ставя человека в экстремальные условия. Это режиссер-хамелеон, чье творчество провоцирует бесконечные споры о богах, искусственном интеллекте и границах человеческой воли.",
+      "filmLink": "https://www.kinopoisk.ru/name/10015/",
+      "films": [
+        {
+          "id": 474,
+          "title": "Гладиатор",
+          "year": 2000,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/7c3460dc-344d-433f-8220-f18d86c8397d/600x900",
+          "link": "https://www.kinopoisk.ru/film/474/"
+        },
+        {
+          "id": 2614,
+          "title": "Тельма и Луиза",
+          "year": 1991,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/9db22597-2424-4728-abb1-83479a9213ba/600x900",
+          "link": "https://www.kinopoisk.ru/film/2614/"
+        },
+        {
+          "id": 2602,
+          "title": "Царство небесное (режиссерская версия)",
+          "year": 2005,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/a995fffa-a936-4b1c-b2d9-b80661e7d003/600x900",
+          "link": "https://www.kinopoisk.ru/film/2602/"
+        },
+        {
+          "id": 1289738,
+          "title": "Последняя дуэль",
+          "year": 2021,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/a9819b63-adb1-472a-8711-88736a021f16/600x900",
+          "link": "https://www.kinopoisk.ru/film/1289738/"
+        },
+        {
+          "id": 2618,
+          "title": "Дуэлянты",
+          "year": 1977,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/b6f75147-02e6-4865-8d9d-b2125794f052/600x900",
+          "link": "https://www.kinopoisk.ru/film/2618/"
+        }
+      ]
+    }                   
   ]
 }
