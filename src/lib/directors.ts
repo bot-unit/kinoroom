@@ -1,0 +1,766 @@
+import { Director, DirectorsData } from "@/types/director"
+
+export const directorsData: DirectorsData =
+{
+  "directors": [
+    {
+      "id": 1,
+      "name": "Люк Бессон",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/90dad9b6-22fe-460e-a035-ba956d6aae42/280x420",
+      "bio": "Французский режиссёр, сценарист и продюсер Люк Бессон наиболее известен своими стильными и динамичными фильмами, такими как «Леон», «Пятый элемент» и «Никита».",
+      "filmLink": "https://www.kinopoisk.ru/name/24505/",
+      "films": [
+        {
+          "id": 4922959,
+          "title": "Догмен",
+          "year": 2023,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/740fe2d6-0813-470a-8ca0-38cda5ba2303/300x450",
+          "link": "https://www.kinopoisk.ru/film/4922959/"
+        },
+        {
+          "id": 9579,
+          "title": "Голубая бездна",
+          "year": 1988,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/0b602e89-4049-4bf8-8f46-cf83af84ab43/300x450",
+          "link": "https://www.kinopoisk.ru/film/9579/"
+        },
+        {
+          "id": 2656,
+          "title": "Пятый элемент",
+          "year": 1997,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/9e9e2b2c-a3c1-462e-8d84-e6a19fbe5b9c/300x450",
+          "link": "https://www.kinopoisk.ru/film/2656/"
+        },
+        {
+          "id": 389,
+          "title": "Леон",
+          "year": 1994,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/8662d92a-5881-4600-a7ae-549e6fd53b03/300x450",
+          "link": "https://www.kinopoisk.ru/film/389/"
+        },
+        {
+          "id": 160929,
+          "title": "Ангел-А",
+          "year": 2005,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/423ea47d-93e9-405d-a6e0-39f1f893eea0/300x450",
+          "link": "https://www.kinopoisk.ru/film/160929/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Кристофер Нолан",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/c16e1382-d91d-4cfc-b179-ce8757a41b10/280x420",
+      "bio": "Британо-американский режиссёр, сценарист и продюсер, известный масштабными голливудскими блокбастерами с нелинейными сюжетами и философским подтекстом, включая «Помни», «Начало», трилогию о Бэтмене и оскароносный «Оппенгеймер».",
+      "filmLink": "https://www.kinopoisk.ru/name/41477/",
+      "films": [
+        {
+          "id": 335,
+          "title": "Мементо",
+          "year": 2000,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/3fabdd0d-9b34-4cbf-a3b0-eb8448ccc122/300x450",
+          "link": "https://www.kinopoisk.ru/film/335/"
+        },
+        {
+          "id": 195334,
+          "title": "Престиж",
+          "year": 2006,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/0e1384ae-6367-4bba-9e5d-d91c6625371e/300x450",
+          "link": "https://www.kinopoisk.ru/film/195334/"
+        },
+        {
+          "id": 447301,
+          "title": "Начало",
+          "year": 2010,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/300x450",
+          "link": "https://www.kinopoisk.ru/film/447301/"
+        },
+        {
+          "id": 258687,
+          "title": "Интерстеллар",
+          "year": 2014,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/430042eb-ee69-4818-aed0-a312400a26bf/300x450",
+          "link": "https://www.kinopoisk.ru/film/258687/"
+        },
+        {
+          "id": 4664634,
+          "title": "Оппенгеймер",
+          "year": 2023,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/c5292109-642c-4ab0-894a-cc304e1bcec4/300x450",
+          "link": "https://www.kinopoisk.ru/film/4664634/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Джон Карпентер",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/41948fd1-9607-48e7-91e3-e1103de49a4d/280x420",
+      "bio": "Мастер минималистичного ужаса и жутких синтезаторных саундтреков, создавший Майкла Майерса и определивший атмосферу современного хоррора.",
+      "filmLink": "https://www.kinopoisk.ru/name/36434/",
+      "films": [
+        {
+          "id": 12340,
+          "title": "Чужие среди нас",
+          "year": 1988,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/c31a1e57-ce19-452a-8282-a378d90d1acb/300x450",
+          "link": "https://www.kinopoisk.ru/film/12340/"
+        },
+        {
+          "id": 4079,
+          "title": "Кристина",
+          "year": 1983,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/b3edfc14-e1d9-4980-b665-021eec3001d1/300x450",
+          "link": "https://www.kinopoisk.ru/film/4079/"
+        },
+        {
+          "id": 9801,
+          "title": "Туман",
+          "year": 1980,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/9838f55a-d66c-4228-b4ca-9e7225f17dae/300x450",
+          "link": "https://www.kinopoisk.ru/film/9801/"
+        },
+        {
+          "id": 8366,
+          "title": "Нечто",
+          "year": 1982,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/01d5bf88-75de-4686-a322-14a55fca991c/300x450",
+          "link": "https://www.kinopoisk.ru/film/8366/"
+        },
+        {
+          "id": 8435,
+          "title": "Хэллоуин",
+          "year": 1978,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/fe86cd89-aba3-4966-8230-6adf61de21dc/300x450",
+          "link": "https://www.kinopoisk.ru/film/8435/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Гильермо дель Торо",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/70550ec5-13ed-418e-a8b4-ae239a9c6398/280x420",
+      "bio": "Мастер атмосферных, сказочных и жутких историй, где реальность переплетается с фантазией.",
+      "filmLink": "https://www.kinopoisk.ru/name/946/",
+      "films": [
+        {
+          "id": 103733,
+          "title": "Лабиринт фавна",
+          "year": 2006,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/d4fa3478-cc0a-432f-9821-7a6bda84ccba/300x450",
+          "link": "https://www.kinopoisk.ru/film/103733/"
+        },
+        {
+          "id": 580661,
+          "title": "Пиноккио Гильермо дель Торо",
+          "year": 2022,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/8a78cc81-b762-46af-8102-43b3e4374086/300x450",
+          "link": "https://www.kinopoisk.ru/film/580661/"
+        },
+        {
+          "id": 5052,
+          "title": "Хеллбой: Герой из пекла",
+          "year": 2004,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/7f66e0bc-2ac3-4fb2-84d9-dc6b5529e30f/300x450",
+          "link": "https://www.kinopoisk.ru/film/5052/"
+        },
+        {
+          "id": 546915,
+          "title": "Тихоокеанский рубеж",
+          "year": 2013,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/260c5383-5b89-480a-b771-4924b45bfdca/300x450",
+          "link": "https://www.kinopoisk.ru/film/546915/"
+        },
+        {
+          "id": 662,
+          "title": "Хребет дьявола",
+          "year": 2001,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/e185a9fc-8b2f-44f9-90a2-5640cb489190/300x450",
+          "link": "https://www.kinopoisk.ru/film/662/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ларс фон Триер",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/0cfb1202-a155-495c-885a-884d655badad/280x420",
+      "bio": "Культовый датский режиссер и сценарист, один из ключевых авторов современного европейского кино, сооснователь манифеста «Догма 95». Он известен своими провокационными, эмоционально насыщенными и визуально смелыми фильмами, исследующими человеческие страдания, психологию и природу зла.",
+      "filmLink": "https://www.kinopoisk.ru/name/31951/",
+      "films": [
+        {
+          "id": 5264,
+          "title": "Рассекая волны",
+          "year": 1996,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/b789c513-c12c-47f6-8060-6bae4cb76d4e/300x450",
+          "link": "https://www.kinopoisk.ru/film/5264/"
+        },
+        {
+          "id": 484488,
+          "title": "Меланхолия",
+          "year": 2011,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/54e33f42-94ec-459b-97c5-dc73c39a1fb5/300x450",
+          "link": "https://www.kinopoisk.ru/film/484488/"
+        },
+        {
+          "id": 15151,
+          "title": "Европа",
+          "year": 1991,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/319783c9-a0d7-450a-a8ae-64d73b2a9805/300x450",
+          "link": "https://www.kinopoisk.ru/film/15151/"
+        },
+        {
+          "id": 7226,
+          "title": "Догвилль",
+          "year": 2003,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/ea32e9e1-bce8-4a1f-bf1c-6527851f71aa/300x450",
+          "link": "https://www.kinopoisk.ru/film/7226/"
+        },
+        {
+          "id": 646,
+          "title": "Танцующая в темноте",
+          "year": 2000,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/355a7fde-66df-42e4-9360-ee8400221203/300x450",
+          "link": "https://www.kinopoisk.ru/film/646/"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Альфред Хичкок",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/d62d9002-6550-4c3b-bf33-56a35da9b262/280x420",
+      "bio": "Мастер саспенса, легендарный английский режиссер, который изобрел и усовершенствовал жанр психологического триллера. Он использовал инновационные кинематографические приемы для создания непревзойденного напряжения и тревоги, оказав огромное влияние на мировое кино.",
+      "filmLink": "https://www.kinopoisk.ru/name/156444/",
+      "films": [
+        {
+          "id": 344,
+          "title": "Психо",
+          "year": 1960,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/abbb4d30-fd08-4fc1-9543-333b2276be11/300x450",
+          "link": "https://www.kinopoisk.ru/film/344/"
+        },
+        {
+          "id": 343,
+          "title": "На север через северо-запад",
+          "year": 1959,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/304cac3f-1186-477b-a025-742c351bf7c7/300x450",
+          "link": "https://www.kinopoisk.ru/film/343/"
+        },
+        {
+          "id": 352,
+          "title": "Головокружение",
+          "year": 1958,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/c4674483-78a6-49cb-aa6f-bbc3859884e4/300x450",
+          "link": "https://www.kinopoisk.ru/film/352/"
+        },
+        {
+          "id": 337,
+          "title": "Окно во двор",
+          "year": 1954,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/b366c92a-690b-4586-89e4-974ca741c420/300x450",
+          "link": "https://www.kinopoisk.ru/film/337/"
+        },
+        {
+          "id": 426,
+          "title": "Ребекка",
+          "year": 1940,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/57e03416-3dc5-4dc7-9476-74a755e169fe/300x450",
+          "link": "https://www.kinopoisk.ru/film/426/"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Вуди Аллен",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/97457cb7-c27e-46b6-a878-eeddc5ecce3f/280x420",
+      "bio": "Культовый американский режиссер, сценарист и актер, известный своим уникальным интеллектуальным юмором, экзистенциальными размышлениями и как автор более 50 фильмов, преимущественно о жизни нью-йоркской интеллигенции. Его работы, такие как оскароносная «Энни Холл» и «Манхэттен», оказали огромное влияние на жанр романтической комедии и мировое кино в целом.",
+      "filmLink": "https://www.kinopoisk.ru/name/5890/",
+      "films": [
+        {
+          "id": 420,
+          "title": "Манхэттен",
+          "year": 1979,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/62779736-0398-4a10-a418-e61a8d918398/300x450",
+          "link": "https://www.kinopoisk.ru/film/420/"
+        },
+        {
+          "id": 390,
+          "title": "Энни Холл",
+          "year": 1977,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/787826af-f3a8-4611-82cb-865a4aa1407a/300x450",
+          "link": "https://www.kinopoisk.ru/film/390/"
+        },
+        {
+          "id": 2740,
+          "title": "Преступления и проступки",
+          "year": 1989,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/996f4b29-aae5-4729-9616-cc325456b262/300x450",
+          "link": "https://www.kinopoisk.ru/film/2740/"
+        },
+        {
+          "id": 504465,
+          "title": "Полночь в Париже",
+          "year": 2011,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/3cc57b96-0f01-4550-b2f1-e981e36f1333/300x450",
+          "link": "https://www.kinopoisk.ru/film/504465/"
+        },
+        {
+          "id": 278171,
+          "title": "Вики Кристина Барселона",
+          "year": 2008,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/e5e7d051-0657-4d15-b65d-3f42cbb935b9/300x450",
+          "link": "https://www.kinopoisk.ru/film/278171/"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Роман Полански",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/9f8df07c-1ffe-4b94-b732-4483fff69585/600x900",
+      "bio": "Один из самых виртуозных режиссеров мирового кино, признанный мастер психологического напряжения и камерной драмы, чьи фильмы мастерски исследуют темы паранойи, изоляции и темных сторон человеческой природы.",
+      "filmLink": "https://www.kinopoisk.ru/name/16563/",
+      "films": [
+        {
+          "id": 365,
+          "title": "Китайский квартал",
+          "year": 1974,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/d8913c0f-f10d-4930-ac21-15c07baa0dfc/600x900",
+          "link": "https://www.kinopoisk.ru/film/365/"
+        },
+        {
+          "id": 355,
+          "title": "Пианист",
+          "year": 2002,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/6d71694e-3796-4e1c-96aa-0e982c2bc03d/600x900",
+          "link": "https://www.kinopoisk.ru/film/355/"
+        },
+        {
+          "id": 11637,
+          "title": "Девятые врата",
+          "year": 1999,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/f80f5a3f-4898-4d7d-9636-e260549f07df/600x900",
+          "link": "https://www.kinopoisk.ru/film/11637/"
+        },
+        {
+          "id": 680149,
+          "title": "Офицер и шпион",
+          "year": 2019,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/68198623-318f-4028-9fda-c0f3e50bde0e/600x900",
+          "link": "https://www.kinopoisk.ru/film/680149/"
+        },
+        {
+          "id": 557837,
+          "title": "Резня",
+          "year": 2011,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/dc08b1a4-841c-41ce-9e44-d95672e53025/600x900",
+          "link": "https://www.kinopoisk.ru/film/557837/"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Стэнли Кубрик",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/e70b3771-0e38-434c-bbea-41a9b7036e0f/280x420",
+      "bio": "Культовый американский кинорежиссер, сценарист, продюсер, оператор и фотограф, который считается одним из самых влиятельных и новаторских кинематографистов второй половины XX века. ",
+      "filmLink": "https://www.kinopoisk.ru/name/20299/",
+      "films": [
+        {
+          "id": 360,
+          "title": "Тропы славы",
+          "year": 1957,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/33a4403d-9750-4d45-a20a-dffa0e03f49c/300x450",
+          "link": "https://www.kinopoisk.ru/film/360/"
+        },
+        {
+          "id": 418,
+          "title": "Цельнометаллическая оболочка",
+          "year": 1987,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/63ae09b0-12c7-4ca6-996a-1a9435cb8cfc/300x450",
+          "link": "https://www.kinopoisk.ru/film/418/"
+        },
+        {
+          "id": 409,
+          "title": "Сияние",
+          "year": 1980,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/49ba5c05-249b-4387-8418-833aa54bb376/300x450",
+          "link": "https://www.kinopoisk.ru/film/409/"
+        },
+        {
+          "id": 391,
+          "title": "Заводной апельсин",
+          "year": 1971,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/5c80a1c4-b8d4-4fc9-a363-41df01545f7f/300x450",
+          "link": "https://www.kinopoisk.ru/film/391/"
+        },
+        {
+          "id": 380,
+          "title": "2001 год: Космическая одиссея",
+          "year": 1968,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/4fb869bc-9e2f-46cc-a72d-df67ead77fff/300x450",
+          "link": "https://www.kinopoisk.ru/film/380/"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Стивен Спилберг",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/f683218a-778a-46fb-9071-0fcc32f64843/280x420",
+      "bio": "Признанный визуальный гений, который фактически изобрел язык современного блокбастера и навсегда изменил правила развлекательного кино. Он виртуозно управляет вниманием аудитории, мастерски проводя зрителя через весь эмоциональный спектр — от леденящего ужаса до чистого детского восторга.",
+      "filmLink": "https://www.kinopoisk.ru/name/22260/",
+      "films": [
+        {
+          "id": 396,
+          "title": "Челюсти",
+          "year": 1975,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/8632d1cd-9819-46b2-95a0-e583b2f72ffb/300x450",
+          "link": "https://www.kinopoisk.ru/film/396/"
+        },
+        {
+          "id": 81372,
+          "title": "Дуэль",
+          "year": 1972,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/ba0d4349-a493-4c27-aebd-88a14b43e00d/300x450",
+          "link": "https://www.kinopoisk.ru/film/81372/"
+        },
+        {
+          "id": 552,
+          "title": "Близкие контакты третьей степени",
+          "year": 1977,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/a79f9bc4-9f22-4dc7-8699-877a3d778ae4/300x450",
+          "link": "https://www.kinopoisk.ru/film/552/"
+        },
+        {
+          "id": 339,
+          "title": "Индиана Джонс: В поисках утраченного ковчега",
+          "year": 1981,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/c4c8cca3-fed9-49f8-8918-1e8301a4327e/300x450",
+          "link": "https://www.kinopoisk.ru/film/339/"
+        },
+        {
+          "id": 7121,
+          "title": "Парк Юрского периода",
+          "year": 1993,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/0d072841-8c4d-40ac-82bc-36e743ef49f5/300x450",
+          "link": "https://www.kinopoisk.ru/film/7121/"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Стивен Спилберг",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/f683218a-778a-46fb-9071-0fcc32f64843/280x420",
+      "bio": "Бескомпромиссным хроникер самых трагических страниц человеческой истории. Превращая художественное кино в мощное свидетельство эпохи, он исследует природу гуманизма и утверждает абсолютную ценность жизни каждого отдельного человека на фоне глобальных катастроф.",
+      "filmLink": "https://www.kinopoisk.ru/name/22260/",
+      "films": [
+        {
+          "id": 371,
+          "title": "Спасти рядового Райана",
+          "year": 1998,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/6bf087f7-a3eb-429f-8844-ace4db6be417/300x450",
+          "link": "https://www.kinopoisk.ru/film/371/"
+        },
+        {
+          "id": 329,
+          "title": "Список Шиндлера",
+          "year": 1993,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/1e1ac6d9-c658-4f5f-937e-d080bca0d893/300x450",
+          "link": "https://www.kinopoisk.ru/film/329/"
+        },
+        {
+          "id": 3923,
+          "title": "Империя солнца",
+          "year": 1987,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/a1530fe1-3ee6-4114-83bc-61c386bc2ae2/300x450",
+          "link": "https://www.kinopoisk.ru/film/3923/"
+        },
+        {
+          "id": 81287,
+          "title": "Мюнхен",
+          "year": 2005,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/83949115-70b4-4c4b-93ff-e549dededf94/300x450",
+          "link": "https://www.kinopoisk.ru/film/81287/"
+        },
+        {
+          "id": 840884,
+          "title": "Шпионский мост",
+          "year": 2015,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/ddec9c90-5b24-4ee9-84d0-042c8d82c76e/300x450",
+          "link": "https://www.kinopoisk.ru/film/840884/"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Стивен Спилберг",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/f683218a-778a-46fb-9071-0fcc32f64843/280x420",
+      "bio": "Фильмы о людях, которые ищут своё место в мире, преодолевают внутренние и внешние конфликты, и в конечном итоге находят надежду и силу в человеческом духе.",
+      "filmLink": "https://www.kinopoisk.ru/name/22260/",
+      "films": [
+        {
+          "id": 544,
+          "title": "Инопланетянин",
+          "year": 1982,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/df360301-084a-4eec-90ab-7954b143de18/300x450",
+          "link": "https://www.kinopoisk.ru/film/544/"
+        },
+        {
+          "id": 324,
+          "title": "Поймай меня, если сможешь",
+          "year": 2002,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/e38dd6f9-610e-4c90-8540-dc48560cb9cc/300x450",
+          "link": "https://www.kinopoisk.ru/film/324/"
+        },
+        {
+          "id": 6877,
+          "title": "Терминал",
+          "year": 2004,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/db9880f6-0897-492b-acb6-4d4de10dc480/300x450",
+          "link": "https://www.kinopoisk.ru/film/6877/"
+        },
+        {
+          "id": 3749,
+          "title": "Цветы лиловые полей",
+          "year": 1985,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/03897af9-f6fe-4079-a53b-d5388761d353/300x450",
+          "link": "https://www.kinopoisk.ru/film/3749/"
+        },
+        {
+          "id": 4472502,
+          "title": "Фабельманы",
+          "year": 2022,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/dda0ea28-f6f6-4f7c-b826-10a130aa7681/300x450",
+          "link": "https://www.kinopoisk.ru/film/4472502/"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Стивен Спилберг",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10812607/f683218a-778a-46fb-9071-0fcc32f64843/280x420",
+      "bio": "Визионер и футуролог, исследующий тонкую грань между человеческой душой и высокими технологиями. От этики искусственного интеллекта до жизни в виртуальных мирах — он предсказывает, как цифровая эра изменит наше восприятие реальности и саму суть гуманизма.",
+      "filmLink": "https://www.kinopoisk.ru/name/22260/",
+      "films": [
+        {
+          "id": 594,
+          "title": "Искусственный разум",
+          "year": 2001,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10953618/c1753bfc-a8df-459f-a797-d8b48e1016d3/300x450",
+          "link": "https://www.kinopoisk.ru/film/594/"
+        },
+        {
+          "id": 496,
+          "title": "Особое мнение",
+          "year": 2002,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/b5d392aa-eefc-4575-9878-c2301e04e6b7/300x450",
+          "link": "https://www.kinopoisk.ru/film/496/"
+        },
+        {
+          "id": 81289,
+          "title": "Война миров",
+          "year": 2005,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/b80d6383-7a1a-443b-af83-a745ce1b3fe2/300x450",
+          "link": "https://www.kinopoisk.ru/film/81289/"
+        },
+        {
+          "id": 406186,
+          "title": "Приключения Тинтина: Тайна единорога",
+          "year": 2011,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/f80e4109-7472-46d5-bd3c-d6036ffd80d5/300x450",
+          "link": "https://www.kinopoisk.ru/film/406186/"
+        },
+        {
+          "id": 538225,
+          "title": "Первому игроку приготовиться",
+          "year": 2018,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/5ae82f4b-fd6a-46b5-b5ba-897106eb1eae/300x450",
+          "link": "https://www.kinopoisk.ru/film/538225/"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Уэс Андерсон",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/15c061bd-21b9-4108-9902-9b0614ba11e6/280x420",
+      "bio": "Главный визионер современного кино, превращающий каждый кадр в безупречную симметричную открытку в пастельных тонах. Его меланхоличные комедии — это уникальный мир, где абсурдный юмор встречается с глубокими семейными драмами и идеальным дизайном.",
+      "filmLink": "https://www.kinopoisk.ru/name/48415/",
+      "films": [
+        {
+          "id": 683999,
+          "title": "Отель «Гранд Будапешт»",
+          "year": 2014,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/ea08a062-81a9-46e9-a475-e49388216eea/300x450",
+          "link": "https://www.kinopoisk.ru/film/683999/"
+        },
+        {
+          "id": 939785,
+          "title": "Остров собак",
+          "year": 2018,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/19f92516-4164-46f7-a083-2eb516a0adaf/300x450",
+          "link": "https://www.kinopoisk.ru/film/939785/"
+        },
+        {
+          "id": 571892,
+          "title": "Королевство полной луны",
+          "year": 2012,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10853012/e2b92a6b-1c5f-4474-a2f5-a1f01cbf032b/300x450",
+          "link": "https://www.kinopoisk.ru/film/571892/"
+        },
+        {
+          "id": 86621,
+          "title": "Бесподобный мистер Фокс",
+          "year": 2009,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/6cc907d7-25d2-4760-a87b-3c1c2bc586c1/300x450",
+          "link": "https://www.kinopoisk.ru/film/86621/"
+        },
+        {
+          "id": 809,
+          "title": "Семейка Тененбаум",
+          "year": 2001,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/e567dc6e-4388-4b8a-a293-913d6e6bfcb7/300x450",
+          "link": "https://www.kinopoisk.ru/film/809/"
+        }
+      ]
+    },   
+    {
+      "id": 15,
+      "name": "Ридли Скотт",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/a721d770-b5ea-427c-8377-d4c592ed1a23/600x900",
+      "bio": "Величайший визионер Голливуда, способный превратить любой кадр в ожившее полотно классической живописи. Его фильмы — это идеальный баланс между философской глубиной, эпическим размахом и техническим совершенством, которое не устаревает десятилетиями.",
+      "filmLink": "https://www.kinopoisk.ru/name/10015/",
+      "films": [
+        {
+          "id": 386,
+          "title": "Чужой",
+          "year": 1979,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/14af6019-b2fe-4e1e-bee5-334d9e472d94/600x900",
+          "link": "https://www.kinopoisk.ru/film/386/"
+        },
+        {
+          "id": 403,
+          "title": "Бегущий по лезвию",
+          "year": 1982,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/ffa0729b-8587-47e8-b4de-3f8a2c61e218/600x900",
+          "link": "https://www.kinopoisk.ru/film/403/"
+        },
+        {
+          "id": 841700,
+          "title": "Марсианин",
+          "year": 2015,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/6f631486-e947-487d-94d6-41c2b5a8f5a0/600x900",
+          "link": "https://www.kinopoisk.ru/film/841700/"
+        },
+        {
+          "id": 612,
+          "title": "Падение „Черного ястреба“",
+          "year": 2001,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/09e3284b-3362-4df6-986f-15b91562a967/600x900",
+          "link": "https://www.kinopoisk.ru/film/612/"
+        },
+        {
+          "id": 252156,
+          "title": "Гангстер",
+          "year": 2007,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/1060b296-390a-41d3-bfcf-ce143725a520/600x900",
+          "link": "https://www.kinopoisk.ru/film/252156/"
+        }
+      ]
+    },     
+    {
+      "id": 16,
+      "name": "Ридли Скотт",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/10893610/a721d770-b5ea-427c-8377-d4c592ed1a23/600x900",
+      "bio": "От клаустрофобного космоса до пыльных арен Древнего Рима: Скотт мастерски перепридумывает жанры, ставя человека в экстремальные условия. Это режиссер-хамелеон, чье творчество провоцирует бесконечные споры о богах, искусственном интеллекте и границах человеческой воли.",
+      "filmLink": "https://www.kinopoisk.ru/name/10015/",
+      "films": [
+        {
+          "id": 474,
+          "title": "Гладиатор",
+          "year": 2000,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/7c3460dc-344d-433f-8220-f18d86c8397d/600x900",
+          "link": "https://www.kinopoisk.ru/film/474/"
+        },
+        {
+          "id": 2614,
+          "title": "Тельма и Луиза",
+          "year": 1991,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/9db22597-2424-4728-abb1-83479a9213ba/600x900",
+          "link": "https://www.kinopoisk.ru/film/2614/"
+        },
+        {
+          "id": 2602,
+          "title": "Царство небесное (режиссерская версия)",
+          "year": 2005,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/a995fffa-a936-4b1c-b2d9-b80661e7d003/600x900",
+          "link": "https://www.kinopoisk.ru/film/2602/"
+        },
+        {
+          "id": 1289738,
+          "title": "Последняя дуэль",
+          "year": 2021,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/a9819b63-adb1-472a-8711-88736a021f16/600x900",
+          "link": "https://www.kinopoisk.ru/film/1289738/"
+        },
+        {
+          "id": 2618,
+          "title": "Дуэлянты",
+          "year": 1977,
+          "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/b6f75147-02e6-4865-8d9d-b2125794f052/600x900",
+          "link": "https://www.kinopoisk.ru/film/2618/"
+        }
+      ]
+    }                   
+  ]
+}
+
+const CYRILLIC_TO_LATIN_MAP: Record<string, string> = {
+  а: "a", б: "b", в: "v", г: "g", д: "d", е: "e", ё: "e", ж: "zh", з: "z", и: "i", й: "y",
+  к: "k", л: "l", м: "m", н: "n", о: "o", п: "p", р: "r", с: "s", т: "t", у: "u", ф: "f",
+  х: "h", ц: "ts", ч: "ch", ш: "sh", щ: "sch", ъ: "", ы: "y", ь: "", э: "e", ю: "yu", я: "ya"
+}
+
+const DIRECTOR_SLUG_OVERRIDES: Record<number, string> = {
+  16: "ridley-scott",
+}
+
+export const directors: Director[] = directorsData.directors
+
+export function slugifyDirectorName(name: string): string {
+  const transliterated = name
+    .toLowerCase()
+    .split("")
+    .map((char) => CYRILLIC_TO_LATIN_MAP[char] ?? char)
+    .join("")
+
+  return transliterated
+    .normalize("NFKD")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-")
+}
+
+export function getDirectorSlug(director: Pick<Director, "id" | "name">): string {
+  const slugBase = DIRECTOR_SLUG_OVERRIDES[director.id] ?? slugifyDirectorName(director.name)
+  return `${slugBase}-${String(director.id).padStart(2, "0")}`
+}
+
+export function getDirectorIdFromSlug(slug: string): number | null {
+  const match = slug.match(/-(\d+)$/)
+  if (!match) return null
+  return Number.parseInt(match[1], 10)
+}
+
+export function getDirectorBySlug(slug: string): Director | undefined {
+  const id = getDirectorIdFromSlug(slug)
+  if (id === null) return undefined
+
+  const director = directors.find((item) => item.id === id)
+  if (!director) return undefined
+
+  return getDirectorSlug(director) === slug ? director : undefined
+}
+
+export function getDirectorPath(director: Pick<Director, "id" | "name">): string {
+  return `/week/${getDirectorSlug(director)}/`
+}
+
+export function getLatestDirector(): Director | undefined {
+  return directors.at(-1)
+}
