@@ -1,5 +1,3 @@
-"use client"
-
 import { MovieCard } from './movie-card'
 import { Movie } from '@/types/movie'
 
