@@ -52,6 +52,7 @@ export default function ConsentBanner() {
     const accept = () => {
         window.localStorage.setItem(STORAGE_KEY, 'granted')
         window.localStorage.removeItem(STORAGE_TIME_KEY)
+        setVisible(false)
         const consentObj = {
             analytics_storage: 'granted' as const,
             ad_storage: 'granted' as const,

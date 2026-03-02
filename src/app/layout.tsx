@@ -4,8 +4,7 @@ import type { Viewport } from "next";
 import './globals.css'
 
 import { Geist, Geist_Mono, Geist as V0_Font_Geist, Geist_Mono as V0_Font_Geist_Mono, Source_Serif_4 as V0_Font_Source_Serif_4 } from 'next/font/google'
-import ConsentBanner from '../components/consent-banner'
-import Analytics from '../components/analytics'
+import ClientServices from '../components/client-services'
 import { GA_MEASUREMENT_ID } from '../lib/ga'
 
 // Initialize fonts
@@ -60,8 +59,7 @@ export default function RootLayout({
           }}
         />
         {children}
-        <Analytics />
-        <ConsentBanner />
+        <ClientServices />
       </body>
     </html>
   )
