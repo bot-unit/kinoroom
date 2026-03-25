@@ -5,24 +5,17 @@ const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
   images: {
     unoptimized: true,
   },
   experimental: {
-    optimizePackageImports: ['lucide-react']
+    optimizePackageImports: ['lucide-react'],
+    appNewScrollHandler: true,
   },
-  // Disable server-side features for static export
-  async rewrites() {
-    return []
-  },
-  async redirects() {
-    return []
-  },
-  async headers() {
-    return []
-  }
+  allowedDevOrigins: ['127.0.0.1'],
+  poweredByHeader: false,
 };
 
 export default nextConfig;
