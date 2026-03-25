@@ -28,19 +28,26 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# environment variables
+.env.local
+.env.*.local
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+
+# private firebase project config
+.firebaserc
+firebase.json
+firestore.rules
+
+# local planning/docs artifacts
+*.numbers
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
 /.firebase
-.firebaserc
-firebase.json
-*.md
-*.numbers

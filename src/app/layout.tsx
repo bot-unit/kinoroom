@@ -6,6 +6,8 @@ import './globals.css'
 import { Geist, Geist_Mono, Geist as V0_Font_Geist, Geist_Mono as V0_Font_Geist_Mono, Source_Serif_4 as V0_Font_Source_Serif_4 } from 'next/font/google'
 import ClientServices from '../components/client-services'
 import { GA_MEASUREMENT_ID } from '../lib/ga'
+import { AuthProvider } from '@/contexts/AuthContext'
+import { AuthHeader } from '@/components/auth/AuthHeader'
 
 // Initialize fonts
 const _geist = V0_Font_Geist({ subsets: ['latin'], weight: ["100","200","300","400","500","600","700","800","900"] })
@@ -26,6 +28,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans antialiased`}>
+        <AuthProvider>
+          <AuthHeader />
         {/* GA4 via gtag.js */}
         {/* Only loads on client; uses NEXT_PUBLIC_GA_MEASUREMENT_ID */}
         {/* Consent Mode defaults; adjust via your consent UI if needed */}
@@ -60,6 +64,7 @@ export default function RootLayout({
         />
         {children}
         <ClientServices />
+        </AuthProvider>
       </body>
     </html>
   )
