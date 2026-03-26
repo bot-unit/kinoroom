@@ -54,6 +54,8 @@ export async function generateMetadata({
       url: pagePath,
       title: pageTitle,
       description: pageDescription,
+      section: "Подборки фильмов",
+      tags: [director.name, ...director.films.map((film) => film.title)],
       images: [
         {
           url: director.image,
@@ -91,12 +93,48 @@ export default async function DirectorWeekSlugPage({
   const previousDirector = currentIndex > 0 ? directors[currentIndex - 1] : undefined
   const nextDirector = currentIndex < directors.length - 1 ? directors[currentIndex + 1] : undefined
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        name: director.name,
+        image: director.image,
+        url: director.filmLink,
+        sameAs: [director.filmLink],
+      },
+      {
+        "@type": "ItemList",
+        name: `${director.name}: фильмы на неделю`,
+        description: director.bio,
+        url: `https://kinoroom-559d8.web.app${getDirectorPath(director)}`,
+        itemListElement: director.films.map((film, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          item: {
+            "@type": "Movie",
+            name: film.title,
+            url: film.link,
+            image: film.poster,
+            dateCreated: String(film.year),
+          },
+        })),
+      },
+    ],
+  }
+
   return (
-    <DirectorWeekPage
-      directors={directors}
-      currentIndex={currentIndex}
-      previousUrl={previousDirector ? getDirectorPath(previousDirector) : undefined}
-      nextUrl={nextDirector ? getDirectorPath(nextDirector) : undefined}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <DirectorWeekPage
+        directors={directors}
+        currentIndex={currentIndex}
+        previousUrl={previousDirector ? getDirectorPath(previousDirector) : undefined}
+        nextUrl={nextDirector ? getDirectorPath(nextDirector) : undefined}
+      />
+    </>
   )
 }

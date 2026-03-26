@@ -852,6 +852,56 @@ export const directorsData: DirectorsData = {
         },
       ],
     },
+    {
+      id: 18,
+      name: "Пол Томас Андерсон",
+      image:
+        "https://avatars.mds.yandex.net/get-kinopoisk-image/4716873/565984f7-5ae0-4877-bb2a-089af47f26aa/600x900",
+      bio: "Главный перфекционист и визионер современного Голливуда, превращающий сложные истории о власти и одиночестве в масштабные визуальные симфонии. Его кино славится маниакальным вниманием к деталям, «живой» пленкой и уникальной способностью выжимать из великих актеров их самые запредельные роли.",
+      filmLink: "https://www.kinopoisk.ru/name/23362/",
+      films: [
+        {
+          id: 477,
+          title: "Магнолия",
+          year: 1999,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/cb5ccf61-e366-41dd-a7bc-a2f4a163e835/600x900",
+          link: "https://www.kinopoisk.ru/film/477/",
+        },
+        {
+          id: 2990,
+          title: "Ночи в стиле буги",
+          year: 1997,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/84820d46-e641-47a1-95b1-0a4a45561563/600x900",
+          link: "https://www.kinopoisk.ru/film/2990/",
+        },
+        {
+          id: 196604,
+          title: "Нефть",
+          year: 2007,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/e772da1f-56ac-4343-acb4-f2d8d63446d5/600x900",
+          link: "https://www.kinopoisk.ru/film/196604/",
+        },
+        {
+          id: 793,
+          title: "Любовь, сбивающая с ног",
+          year: 2002,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/b7e68c08-3baa-40b5-8153-6633946aa020/600x900",
+          link: "https://www.kinopoisk.ru/film/793/",
+        },
+        {
+          id: 5437094,
+          title: "Битва за битвой",
+          year: 2025,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/38eae397-547c-42de-9fb5-c2720ae8cc9a/600x900",
+          link: "https://www.kinopoisk.ru/film/5437094/",
+        },
+      ],
+    },
   ],
 };
 
