@@ -18,7 +18,7 @@ export default function PrivacyPage() {
         <li>Вы можете отказаться от сбора статистики в любой момент</li>
         <li>Для этого используйте баннер согласия внизу страницы</li>
       </ul>
-      <p className="mt-6 text-sm text-neutral-500">Если у вас есть вопросы, напишите нам: info@kinoroom.ru</p>
+      <p className="mt-6 text-sm text-neutral-500">Если у вас есть вопросы, напишите нам: info [at] neurosouls.xyz</p>
     </main>
   );
 }

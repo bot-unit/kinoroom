@@ -902,6 +902,256 @@ export const directorsData: DirectorsData = {
         },
       ],
     },
+    {
+      id: 19,
+      name: "Рон Ховард",
+      image:
+        "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/af84daa0-4f49-430a-a79f-d1aec557555a/600x900",
+      bio: "Один из самых универсальных и техничных режиссеров Голливуда, мастерски превращающий сложные реальные истории и биографии в захватывающее, эмоциональное кино. Его фильмы славятся глубокими персонажами и способностью находить драму в самых неожиданных местах — от космоса до бейсбольного поля.",
+      filmLink: "https://www.kinopoisk.ru/name/8919/",
+      films: [
+        {
+          id: 530,
+          title: "Игры разума",
+          year: 2001,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/80f21137-eebb-4cdc-8124-96c68c07c2a8/600x900",
+          link: "https://www.kinopoisk.ru/film/530/",
+        },
+        {
+          id: 2217,
+          title: "Аполлон 13",
+          year: 1995,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/4639043a-354e-4093-90dc-bd34270d594b/600x900",
+          link: "https://www.kinopoisk.ru/film/2217/",
+        },
+        {
+          id: 596125,
+          title: "Гонка",
+          year: 2013,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/2bf5ff35-e2d6-4e3e-8b02-c42526187d4f/600x900",
+          link: "https://www.kinopoisk.ru/film/596125/",
+        },
+        {
+          id: 6236,
+          title: "Обратная тяга",
+          year: 1991,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/27454fa0-a729-4bfa-a733-6831ccee2abe/600x900",
+          link: "https://www.kinopoisk.ru/film/6236/",
+        },
+        {
+          id: 309328,
+          title: "Фрост против Никсона",
+          year: 2008,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/537af626-7c07-44da-b3cb-e4af0f4d5efb/600x900",
+          link: "https://www.kinopoisk.ru/film/309328/",
+        },
+      ],
+    },
+    {
+      id: 20,
+      name: "Рон Ховард",
+      image:
+        "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/af84daa0-4f49-430a-a79f-d1aec557555a/600x900",
+      bio: "Подлинный мастер очеловечивания больших историй через искреннюю оду человеческому духу и стойкости. Его кино отображает несгибаемую волю человека в моменты предельного испытания.",
+      filmLink: "https://www.kinopoisk.ru/name/8919/",
+      films: [
+        {
+          id: 12244,
+          title: "Нокдаун",
+          year: 2005,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/0678b750-a595-4715-9554-ad8bfab6e989/600x900",
+          link: "https://www.kinopoisk.ru/film/12244/",
+        },
+        {
+          id: 1382211,
+          title: "13 жизней",
+          year: 2022,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/045843a3-0a1c-4b55-be4a-0a658ad7192a/600x900",
+          link: "https://www.kinopoisk.ru/film/1382211/",
+        },
+        {
+          id: 77711,
+          title: "Код Да Винчи",
+          year: 2006,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/ee4aadee-9464-40b6-9b73-0caa82fbe3dc/600x900",
+          link: "https://www.kinopoisk.ru/film/77711/",
+        },
+        {
+          id: 6698,
+          title: "Виллоу",
+          year: 1988,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/8e709fb8-c047-45fb-aa62-8043f5db1be3/600x900",
+          link: "https://www.kinopoisk.ru/film/6698/",
+        },
+        {
+          id: 8136,
+          title: "Выкуп",
+          year: 1996,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/09585944-37e6-4fb0-bbc6-333397c04be0/600x900",
+          link: "https://www.kinopoisk.ru/film/8136/",
+        },
+      ],
+    },
+    {
+      id: 21,
+      name: "Кеннет Брана",
+      image:
+        "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/b708f247-167c-4e2a-8937-35d55b1e6ae2/600x900",
+      bio: "Человек, который вернул Шекспира с пыльных театральных подмостков на большие экраны. Мастер, доказавший, что классика — это не скучно, а драйвово, ярко и на все времена",
+      filmLink: "https://www.kinopoisk.ru/name/8886/",
+      films: [
+        {
+          id: 997223,
+          title: "Ромео и Джульетта",
+          year: 2016,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/19a32980-0846-485c-b8d4-8834228aac27/600x900",
+          link: "https://www.kinopoisk.ru/film/997223/",
+        },
+        {
+          id: 798626,
+          title: "Макбет",
+          year: 2013,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/12947ff1-0a72-4c81-8e57-ae7279f9c9b6/600x900",
+          link: "https://www.kinopoisk.ru/film/798626/",
+        },
+        {
+          id: 1598,
+          title: "Гамлет",
+          year: 1996,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/e0ecb833-5fb6-45d4-9a35-aadc743556d2/600x900",
+          link: "https://www.kinopoisk.ru/film/1598/",
+        },
+        {
+          id: 525,
+          title: "Генрих V",
+          year: 1989,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/c736679d-bd5b-4052-a443-bb438f3279d2/600x900",
+          link: "https://www.kinopoisk.ru/film/525/",
+        },
+        {
+          id: 3803,
+          title: "Много шума из ничего",
+          year: 1993,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/ace48c82-22ff-4387-8bb3-c9c0047720ed/600x900",
+          link: "https://www.kinopoisk.ru/film/3803/",
+        },
+      ],
+    },    
+    {
+      id: 22,
+      name: "Кеннет Брана",
+      image:
+        "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/b708f247-167c-4e2a-8937-35d55b1e6ae2/600x900",
+      bio: "Режиссер, способный превратить заброшенную церковь в поле битвы, который умеет делать кино 'золотого стандарта', где на первом месте всегда стоит Человек.",
+      filmLink: "https://www.kinopoisk.ru/name/8886/",
+      films: [
+        {
+          id: 1397888,
+          title: "Белфаст",
+          year: 2021,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/14039b22-1c31-4906-9b5d-58d5cde6acf3/600x900",
+          link: "https://www.kinopoisk.ru/film/1397888/",
+        },
+        {
+          id: 258941,
+          title: "Тор",
+          year: 2011,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/8674c9c7-6ec6-4c90-8642-7b0741d87dac/600x900",
+          link: "https://www.kinopoisk.ru/film/258941/",
+        },
+        {
+          id: 6668,
+          title: "Франкенштейн",
+          year: 1994,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/fa379781-3395-4844-91e2-d081923c3eb5/600x900",
+          link: "https://www.kinopoisk.ru/film/6668/",
+        },
+        {
+          id: 195539,
+          title: "Волшебная флейта",
+          year: 2006,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c8955920-bd4b-4781-817a-c275cddad40b/600x900",
+          link: "https://www.kinopoisk.ru/film/195539/",
+        },
+        {
+          id: 260983,
+          title: "Сыщик",
+          year: 2007,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/8f81c070-43b4-4c9a-87ee-2092a022f7df/600x900",
+          link: "https://www.kinopoisk.ru/film/260983/",
+        },
+      ],
+    },      
+    {
+      id: 23,
+      name: "Антуан Фукуа",
+      image:
+        "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/e58e78e4-ad47-42d2-9f39-0528148ad275/600x900",
+      bio: "Известен своим визуальным перфекционизмом и умением работать с темой моральной двусмысленности. Его герои часто оказываются в «серых зонах» закона, а насилие в кадре всегда выглядит жестким и реалистичным.",
+      filmLink: "https://www.kinopoisk.ru/name/12755/",
+      films: [
+        {
+          id: 863,
+          title: "Тренировочный день",
+          year: 2001,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/b073f089-62d0-4196-9055-bfc948300142/600x900",
+          link: "https://www.kinopoisk.ru/film/863/",
+        },
+        {
+          id: 257898,
+          title: "Стрелок",
+          year: 2007,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/4486454/c49cda85-d40f-4a1c-a854-417863cfdb89/600x900",
+          link: "https://www.kinopoisk.ru/film/257898/",
+        },
+        {
+          id: 196707,
+          title: "Великий уравнитель",
+          year: 2014,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/f0031dfe-adf2-4b26-a5e2-7dfc404a2124/600x900",
+          link: "https://www.kinopoisk.ru/film/196707/",
+        },
+        {
+          id: 573990,
+          title: "Левша",
+          year: 2015,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/c1d36608-7c92-4090-8326-40c3d7ad7fcf/600x900",
+          link: "https://www.kinopoisk.ru/film/573990/",
+        },
+        {
+          id: 22138,
+          title: "Король Артур",
+          year: 2004,
+          poster:
+            "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/11f70132-2be1-4c11-b449-7150ef275e19/600x900",
+          link: "https://www.kinopoisk.ru/film/22138/",
+        },
+      ],
+    },     
   ],
 };
 
